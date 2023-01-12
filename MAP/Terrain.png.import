@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Terrain.png-6c7c649fc291f5367e5edc027a7805aa.stex"
+path="res://.import/Terrain.png-ba5c3053a44c4723f6025d346af7f1d5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FROSTBITE map/Terrain.png"
-dest_files=[ "res://.import/Terrain.png-6c7c649fc291f5367e5edc027a7805aa.stex" ]
+source_file="res://MAP/Terrain.png"
+dest_files=[ "res://.import/Terrain.png-ba5c3053a44c4723f6025d346af7f1d5.stex" ]
 
 [params]
 

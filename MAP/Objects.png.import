@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Objects.png-527f1dfd530fe391192cf4a6a953f833.stex"
+path="res://.import/Objects.png-98b80451f6c197fb88bc848b17dddf92.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FROSTBITE map/Objects.png"
-dest_files=[ "res://.import/Objects.png-527f1dfd530fe391192cf4a6a953f833.stex" ]
+source_file="res://MAP/Objects.png"
+dest_files=[ "res://.import/Objects.png-98b80451f6c197fb88bc848b17dddf92.stex" ]
 
 [params]
 
