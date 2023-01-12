@@ -1,7 +1,7 @@
 extends Node2D
 
 const TREES := [
-	preload("MAP/Snow.tres/Terrain.png/Tree"),
+	preload("MAP/Terrain.png"),
 ]
 
 onready var mask: TileMap = $Mask
@@ -16,7 +16,7 @@ func get_random_tree() -> Sprite:
 	return TREES[tree_random_index].instance()
 
 func add_trees_on_grid() -> void:
-	for cell in mask.get_used_cells():
+	for cell in 	mask.get_used_cells():
 		var tree := get_random_tree()
 		add_child(tree)
 		var tree_size := tree.scale * tree.texture.get_size()
