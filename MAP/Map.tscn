@@ -14,7 +14,7 @@ extents = Vector2( 40, 24 )
 [sub_resource type="RectangleShape2D" id=4]
 extents = Vector2( 61, 5.5 )
 
-[node name="Map" type="YSort"]
+[node name="Map" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
@@ -35,7 +35,10 @@ __meta__ = {
 }
 
 [node name="Trees and Mountains" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
 format = 1
+tile_data = PoolIntArray( 524312, 10, 0, 589855, 10, 0, 851996, 10, 0, 1048599, 10, 0, 1114144, 10, 0, 1310745, 10, 0, 1376290, 10, 0, 1572892, 10, 0 )
 
 [node name="TileMap2" type="TileMap" parent="."]
 position = Vector2( 2, -1 )
