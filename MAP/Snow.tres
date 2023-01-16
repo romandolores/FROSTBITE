@@ -1,16 +1,19 @@
-[gd_resource type="TileSet" load_steps=6 format=2]
+[gd_resource type="TileSet" load_steps=7 format=2]
 
 [ext_resource path="res://MAP/Terrain.png" type="Texture" id=1]
 [ext_resource path="res://MAP/Objects.png" type="Texture" id=2]
 
-[sub_resource type="ConvexPolygonShape2D" id=1]
-points = PoolVector2Array( 9.56403, 24.8695, 7.94897, 15.5022, 18.7698, 15.1791, 26.5222, 31.0511, 9.40253, 30.2436 )
+[sub_resource type="ConvexPolygonShape2D" id=4]
+points = PoolVector2Array( 7.11475, 30.1559, 8.27759, 28.528, 12.2313, 21.3184, 15.7198, 14.1088, 27.1156, 29.9234 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+points = PoolVector2Array( 8.18408, 30.6027, 14.696, 18.0441, 23.9987, 30.6027 )
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 
-[sub_resource type="ConvexPolygonShape2D" id=3]
-points = PoolVector2Array( 10.325, 7.8833, 11.1325, 12.0824, 4.9953, 11.5979, 5.96436, 8.0448, 10.325, 7.56029 )
+[sub_resource type="ConvexPolygonShape2D" id=6]
+points = PoolVector2Array( 12.613, 11.5979, 4.26852, 11.4633, 6.01819, 5.40688, 9.78665, 5.00311 )
 
 [resource]
 0/name = "Dirt"
@@ -189,14 +192,20 @@ points = PoolVector2Array( 10.325, 7.8833, 11.1325, 12.0824, 4.9953, 11.5979, 5.
 10/navigation_offset = Vector2( 0, 0 )
 10/shape_offset = Vector2( 0, 0 )
 10/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-10/shape = SubResource( 1 )
+10/shape = SubResource( 4 )
 10/shape_one_way = false
 10/shape_one_way_margin = 1.0
 10/shapes = [ {
 "autotile_coord": Vector2( 1, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 1 ),
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 10/z_index = 0
@@ -356,7 +365,7 @@ points = PoolVector2Array( 10.325, 7.8833, 11.1325, 12.0824, 4.9953, 11.5979, 5.
 "autotile_coord": Vector2( 1, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 3 ),
+"shape": SubResource( 6 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 18/z_index = 0
