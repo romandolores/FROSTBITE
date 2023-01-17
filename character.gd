@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 onready var sprite := $SoldierTilesheet
 
-var normal_speed := 200
+var normal_speed := 150
 
 const DIRECTION_TO_FRAME := {
 	Vector2.DOWN: 0,
