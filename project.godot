@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="FROSTBITE - Final Project"
-run/main_scene="res://FORSTBITE - game.tscn"
+run/main_scene="res://FORSTBITE.tscn"
 config/icon="res://icon.png"
 
 [gui]
