@@ -1,7 +1,13 @@
-[gd_resource type="TileSet" load_steps=5 format=2]
+[gd_resource type="TileSet" load_steps=7 format=2]
 
 [ext_resource path="res://MAP/Terrain.png" type="Texture" id=1]
 [ext_resource path="res://MAP/Objects.png" type="Texture" id=2]
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+points = PoolVector2Array( 9.6261, 27.6207, 8.50977, 22.3181, 8.50977, 15.8993, 11.0215, 13.1084, 17.9985, 12.5503, 21.6266, 13.9457, 23.022, 18.411, 24.1383, 23.7135, 24.1383, 29.0161, 19.1149, 30.4115, 13.5332, 30.1324 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+points = PoolVector2Array( 11.1158, 24.5508, 9.44135, 19.8064, 9.44135, 14.7829, 13.0695, 11.713, 17.2556, 11.9921, 22.8373, 14.7829, 23.1163, 17.8528, 23.3954, 25.9462, 18.9301, 28.4579, 13.6276, 28.737 )
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -186,9 +192,22 @@ points = PoolVector2Array( 5.75226, 11.351, 4.32434, 9.66349, 4.51904, 7.84614, 
 10/navigation_offset = Vector2( 0, 0 )
 10/shape_offset = Vector2( 0, 0 )
 10/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+10/shape = SubResource( 7 )
 10/shape_one_way = false
-10/shape_one_way_margin = 0.0
-10/shapes = [  ]
+10/shape_one_way_margin = 1.0
+10/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 10/z_index = 0
 11/name = "Snow"
 11/texture = ExtResource( 1 )
