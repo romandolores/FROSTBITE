@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 onready var sprite := $ZombieTilesheet
 
-var speed = 125
+var speed = 115
 var motion = Vector2.ZERO
 var player = null
 
